@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+body{
+    background-color: #C99B67;
+}
+.header{
+    width: 1440px;
+}
+.logo{
+    position: relative;
+    left: 40px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+.nav ul li:hover{
+    transition: 0.6s all;
+    color: green;
+    text-shadow: 5px 6px 20px green;
+    font-size: 18px;
+}
+.plan{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.txt1{
+    font-size: 56px;
+    position: absolute;
+    top: 180px;
+    left: 45px;
+}
+.btn1{
+    border: 0px solid;
+    border-radius: 30px;
+    background-color: #0A775F;
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    color: white;
+    top: 500px;
+    left: 45px;
+}
+.btn1:hover{
+    transition: all 0.6s;
+    box-shadow: 0 0 30px #0A775F;
+}
+.txt2{
+    position: absolute;
+    top: 370px;
+    width: 500px;
+    font-size: 18px;
+    left: 45px;
+}
+.back-transition1{
+    position: absolute;
+    right: 1px;
+    width: 610px;
+    height: 604px;
+    top: 170px;
+    z-index: 2;
+}
+.transition11{
+    position: relative;
+    left: 800px;
+    z-index: 4;
+    animation-name: transform;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+@keyframes transform {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.txt3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    top: 130px;
+}
+.sect2{
+    background-color: white;
+    width: 1499px;
+    height: 1798px;
+    margin-top: 400px;
+    position: relative;
+}
+.danche{
+    position: absolute;
+    top: 270px;
+    width: 300px;
+    height: 300px;
+    left: 300px;
+}
+.danche:hover{
+    width: 350px;
+    height: 350px;
+    transition: all 0.4s;
+}
+.danche-name{
+    text-transform: uppercase;
+    position: absolute;
+    left: 750px;
+    top: 350px;
+}
+.danche-txt{
+    position: absolute;
+    left: 750px;
+    width: 300px;
+    top: 390px;
+}
+.gran{
+    position: absolute;
+    top: 660px;
+    width: 300px;
+    height: 300px;
+    left: 840px;
+}
+.gran:hover{
+    width: 350px;
+    height: 350px;
+    transition: all 0.4s;
+}
+.gran-name{
+    text-transform: uppercase;
+    position: absolute;
+    left: 400px;
+    top: 730px;
+}
+.grantxt{
+    position: absolute;
+    left: 400px;
+    width: 300px;
+    top: 770px;
+}
+.picollo{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 1000px;
+    left: 300px;
+}
+.picollo:hover{
+    width: 350px;
+    height: 350px;
+    transition: all 0.4s;
+}
+.picollo-name{
+    text-transform: uppercase;
+    position: absolute;
+    left: 750px;
+    top: 1100px;
+}
+.picollo-txt{
+    position: absolute;
+    left: 750px;
+    width: 300px;
+    top:1140px;
+}
+.planalto{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 840px;
+    top: 1400px;
+}
+.planalto:hover{
+    width: 350px;
+    height: 350px;
+    transition: all 0.4s;
+}
+.planalto-name{
+    text-transform: uppercase;
+    position: absolute;
+    top: 1490px;
+    left: 400px;
+}
+.planalto-txt{
+    position: absolute;
+    width: 300px;
+    left: 400px;
+    top: 1530px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 30px;
+}
+.footer ul{
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+}
+.footer ul li:hover{
+    transition: all;
+    transition: 0.6s all;
+    color: green;
+    text-shadow: 5px 6px 20px green;
+    font-size: 18px;
+}
+.social{
+    gap: 30px;
+    display: flex;
+}
